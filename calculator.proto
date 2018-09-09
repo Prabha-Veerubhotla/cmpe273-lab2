@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+// The Calculator Service definition
+service Calculator {
+  // Sends two numbers as input
+  rpc AddTwoNumbers (AddRequest) returns (SumReply) {}
+}
+
+// The request message containing the 2 input numbers.
+message AddRequest {
+  int32 a = 1;
+  int32 b = 2;
+}
+
+// The response message containing the sum of the 2 numbers.
+message SumReply {
+  int32 sum = 1;
+}

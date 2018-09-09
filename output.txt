@@ -1,0 +1,4 @@
+Student@USCS-648 MINGW64 ~/Desktop/273 lab 2/cmpe273-lab2 (master)
+$ python calculator_client.py
+Sum of the given two numbers is: -4
+
